@@ -90,3 +90,5 @@ int main()  {
     
     return 0;
 }
+T.C:O(sqrt(N))
+S.C:O(1)
