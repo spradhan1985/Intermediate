@@ -97,3 +97,18 @@ int Solution::solve(int A) {
 }
 T.C:O(log N)
 S.C:O(1)
+
+3rd approach:
+if input is not perfect square then return floor of sqare root of N.
+int Solution::solve(int A) {
+   int i;
+   for( i=1;i*i<=A;i++)
+   {
+       if(i*i==A)
+       {
+           return i;
+       }
+   }
+
+   return i-1;
+}
