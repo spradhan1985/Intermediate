@@ -127,3 +127,5 @@ if abcd==pow(a,n)+pow(b.n)+pow(c,n)+pow(d,n) */
     
     return 0;
 }
+T.C: O(nlogn base 10)
+ S.C: O(1)
